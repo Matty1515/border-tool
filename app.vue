@@ -1,6 +1,6 @@
 <script setup>
 import { ref, watch, onMounted } from 'vue';
-import defaultImagePath from '/assets/placeholder.png';
+import defaultImagePath from '/public/placeholder.png';
 
 let image = null;
 const canvas = ref(null);
