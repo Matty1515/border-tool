@@ -137,8 +137,12 @@ header {
 }
 
 main {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
     background-color: var(--background-color);
     background-image:
         linear-gradient(45deg, var(--background-color-light) 25%, transparent 25%),
@@ -150,9 +154,12 @@ main {
 }
 
 canvas {
-    display: block;
-    height: 80vh;
+    max-width: 100%;
+    max-height: 80vh;
     width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 .title {
