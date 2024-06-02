@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Border Tool
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A simple tool for adding a border to an image.
 
 ## Setup
 
